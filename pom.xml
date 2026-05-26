@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rt</groupId>
 	<artifactId>hello-world-java</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 	<name>hello-world-java</name>
 	<url>https://www.rushitechnologies.com</url>
@@ -31,11 +31,11 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://65.0.128.218:8081/repository/hello-world-java/</url>
+			<url>http://172.31.24.136:8081/repository/hello-world-java/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://65.0.128.218:8081/repository/hello-world-java-snapshot/</url>
+			<url>http://172.31.24.136:8081/repository/hello-world-java-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
